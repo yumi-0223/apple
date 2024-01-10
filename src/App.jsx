@@ -12,7 +12,7 @@ export default function App() {
 
     function setM(event){
       const inputData=event.target.value;
-      setNewData(inputData)
+      setMemberData(inputData);
     }
     
     function newPass(event){
@@ -54,6 +54,9 @@ export default function App() {
             <button type="button" onClick={memberPass}>member</button>
           </div>
           </form>
+          <div>
+            <p className="sub">日本大学文理学部情報科学科Webプログラミング</p>
+          </div>
         </main>
       </div>
     );
